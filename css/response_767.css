@@ -1,0 +1,1471 @@
+@media (max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 22px;
+        --font_size_title_big: 26px;
+    }
+
+
+    .block,
+    .block.middle_m
+    {
+        margin-bottom: 60px;
+    }
+
+    .block.big_m
+    {
+        margin-bottom: 60px;
+    }
+
+    .block.border
+    {
+        padding-bottom: 48px;
+    }
+
+
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+    .fancybox__content > .f-button.is-close-btn,
+    .is-compact .fancybox__content > .f-button.is-close-btn
+    {
+        top: 12px;
+        right: 12px;
+
+        --f-button-width: 36px;
+        --f-button-height: 36px;
+        --f-button-svg-width: 18px;
+        --f-button-svg-height: 18px;
+    }
+
+
+
+    /*----------------
+        Top banner
+    ----------------*/
+    .top_banner
+    {
+        display: none;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 20px 0;
+
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+
+    header .menu
+    {
+        display: none;
+    }
+
+
+    header .menu_modal
+    {
+        padding: 24px 0;
+
+        border-width: 1px;
+    }
+
+
+    header .menu_modal .categories
+    {
+        display: flex;
+    }
+
+
+    header .menu_modal .search
+    {
+        order: 2;
+
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+    header .menu_modal .search ::-webkit-input-placeholder
+    {
+        color: #7f7f7f;
+    }
+
+    header .menu_modal .search :-moz-placeholder
+    {
+        color: #7f7f7f;
+    }
+
+    header .menu_modal .search ::-moz-placeholder
+    {
+        opacity: 1;
+        color: #7f7f7f;
+    }
+
+    header .menu_modal .search :-ms-input-placeholder
+    {
+        color: #7f7f7f;
+    }
+
+
+    header .menu_modal .search .input,
+    header .menu_modal .search .submit_btn
+    {
+        color: #7f7f7f;
+    }
+
+
+    header .menu_modal .search .quike_options
+    {
+        display: none;
+    }
+
+
+    header .menu_modal .links
+    {
+        width: 100%;
+
+        color: #7f7f7f;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head.border
+    {
+        border-top: none;
+    }
+
+
+    .breadcrumbs
+    {
+        padding: 16px 0;
+
+        gap: 4px;
+    }
+
+
+    .page_head .back_link
+    {
+        padding: 16px 0;
+    }
+
+
+    .page_head .mob_current_link
+    {
+        margin-top: 140px;
+        padding: 10px 20px;
+    }
+
+
+    .page_head .links
+    {
+        padding: 20px 0;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .remember
+    {
+        padding-top: 12px;
+    }
+
+
+    .form .forgot
+    {
+        line-height: calc(100% + 6px);
+
+        padding-top: 12px;
+    }
+
+
+    .form .toggle_field
+    {
+        padding-top: 12px;
+    }
+
+
+    .form .submit
+    {
+        padding-top: 12px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: var(--font_size);
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .swiper-button-next,
+    .main_slider .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+    .main_slider .swiper-pagination
+    {
+        display: flex;
+    }
+
+
+    .main_slider .cont,
+    .top_banner ~ .main_slider .cont
+    {
+        height: 510px;
+    }
+
+
+    .main_slider .data
+    {
+        width: 100%;
+
+        text-align: left;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        flex-wrap: wrap;
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories .category .name
+    {
+        padding: 32px 20px;
+    }
+
+
+    .categories .category .btn
+    {
+        bottom: 32px;
+    }
+
+
+
+    /*-----------------------
+        Big promo product
+    -----------------------*/
+    .big_promo_product .cont
+    {
+        height: 450px;
+    }
+
+
+    .big_promo_product .data
+    {
+        width: 47%;
+        margin-left: 53%;
+    }
+
+
+    .big_promo_product .image
+    {
+        left: 0;
+
+        width: 100%;
+
+        transform: none;
+    }
+
+
+
+    /*---------------
+        Expensive
+    ---------------*/
+    .expensive
+    {
+        padding: 60px 0;
+    }
+
+
+    .expensive .title,
+    .expensive .sub_title
+    {
+        font-size: var(--font_size_title_big);
+    }
+
+
+    .expensive .sub_title,
+    .expensive .icon
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*----------
+        Auth
+    ----------*/
+    .auth .title
+    {
+        font-size: 18px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .auth .desc
+    {
+        font-size: var(--font_size);
+
+        margin-bottom: 32px;
+    }
+
+
+    .auth .link a
+    {
+        line-height: 100%;
+    }
+
+
+
+    /*-------------
+        LK info
+    -------------*/
+    .lk_info aside
+    {
+        width: calc(100% + 40px);
+        max-width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-bottom: 32px;
+        margin-left: -20px;
+        padding: 20px 20px 0;
+    }
+
+
+    .lk_info aside .mob_logout_btn
+    {
+        top: 20px;
+        right: 20px;
+    }
+
+
+    .lk_info aside .mob_current_link
+    {
+        width: calc(100% + 40px);
+        margin-top: 20px;
+        margin-right: -20px;
+        margin-left: -20px;
+        padding: 10px 20px;
+    }
+
+
+    .lk_info aside .links
+    {
+        padding: 20px;
+    }
+
+
+
+    .lk_info .form .section + .section
+    {
+        margin-top: 32px;
+    }
+
+
+    .lk_info .content .title
+    {
+        font-size: 18px;
+
+        margin-bottom: 32px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .head
+    {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+
+    .products .filter_btn
+    {
+        font-size: 12px;
+
+        min-width: 0;
+    }
+
+
+    .products .sort .btn
+    {
+        font-size: 12px;
+    }
+
+
+    .products .head .breadcrumbs
+    {
+        display: none;
+    }
+
+
+    .products .swiper
+    {
+        padding: 0;
+    }
+
+
+    .products .swiper-button-next,
+    .products .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+    .products .swiper-scrollbar
+    {
+        display: block;
+    }
+
+
+    .products .row
+    {
+        margin-bottom: -48px;
+    }
+
+
+    .products .row > *,
+    .filter_open .products .row > *
+    {
+        width: calc(50% - 4px);
+        margin-bottom: 48px;
+    }
+
+
+    .content .products .row
+    {
+        justify-content: space-between;
+
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-bottom: -32px;
+        margin-left: -20px;
+    }
+
+
+    .content .products .row > *
+    {
+        width: calc(50% - 3px);
+        margin-bottom: 32px;
+        margin-left: 0;
+    }
+
+
+    .products .banner,
+    .filter_open .products .banner
+    {
+        width: calc(100% - 4px);
+        margin-bottom: 60px;
+    }
+
+
+    .products .more
+    {
+        padding-top: 48px;
+    }
+
+
+    .products .filter
+    {
+        padding: 20px;
+    }
+
+
+
+    /*---------------
+        Addresses
+    ---------------*/
+    .addresses .address
+    {
+        font-size: var(--font_size);
+
+        gap: 16px;
+    }
+
+
+    .addresses .address .name
+    {
+        width: 100%;
+    }
+
+
+    .addresses .address .location
+    {
+        width: 100%;
+        padding-bottom: 11px;
+
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+
+    .addresses .address.mark .location
+    {
+        font-weight: 400;
+    }
+
+
+    .addresses .address .actions
+    {
+        display: none;
+    }
+
+
+    .addresses .address .mob_delete_btn
+    {
+        display: flex;
+    }
+
+
+    .addresses .address .mob_edit_btn
+    {
+        display: block;
+    }
+
+
+
+    /*------------
+        Orders
+    ------------*/
+    .orders .list
+    {
+        gap: 20px;
+    }
+
+
+    .orders .order .head
+    {
+        padding: 11px 15px;
+    }
+
+
+    .orders .order .head .count,
+    .orders .order .head .date,
+    .orders .order .head .total_price
+    {
+        margin-top: -12px;
+    }
+
+
+    .orders .order .head .arr
+    {
+        top: 18px;
+        right: 19px;
+    }
+
+
+    .orders .order .data
+    {
+        padding: 16px 15px;
+    }
+
+
+    .orders .order .product .thumb
+    {
+        width: 120px;
+        height: 160px;
+    }
+
+
+    .orders .order .product .info
+    {
+        width: calc(100% - 140px);
+        min-height: 160px;
+        padding: 20px 0;
+
+        gap: 10px;
+    }
+
+    .orders .order .product .name,
+    .orders .order .product .price
+    {
+        font-size: 15px;
+    }
+
+
+    .orders .order .product .delete
+    {
+        display: none;
+    }
+
+
+
+    /*----------------------
+        Terms of service
+    ----------------------*/
+    .terms_of_service .date,
+    .terms_of_service .text_block
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*--------------------
+        Privacy policy
+    --------------------*/
+    .privacy_policy .date,
+    .privacy_policy .text_block
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*-------------------
+        Delivery info
+    -------------------*/
+    .delivery_info .section + .section
+    {
+        margin-top: 48px;
+    }
+
+
+    .delivery_info .sub_title
+    {
+        font-weight: 400;
+
+        margin-top: 20px;
+        padding-bottom: 11px;
+    }
+
+
+    .delivery_info .sub_title br
+    {
+        display: none;
+    }
+
+
+    .delivery_info .methods
+    {
+        margin-top: 24px;
+
+        gap: 24px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        gap: 24px;
+    }
+
+
+
+    /*----------------
+        Error page
+    ----------------*/
+    .error_page
+    {
+        padding-top: 0;
+
+        border: none;
+    }
+
+
+    .error_page .mob_hide
+    {
+        display: none;
+    }
+
+
+    .error_page .data
+    {
+        padding: 60px 20px;
+    }
+
+
+    .error_page .link a
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------------
+        Checkout success
+    ----------------------*/
+    .checkout_success
+    {
+        padding: 60px 0;
+    }
+
+
+    .checkout_success .link a
+    {
+        width: 100%;
+    }
+
+
+
+    /*---------------
+        Cart info
+    ---------------*/
+    .cart_info
+    {
+        border: none;
+    }
+
+
+    .cart_info .order .list
+    {
+        padding-bottom: 23px;
+    }
+
+
+    .cart_info .order .title
+    {
+        font-size: 12px;
+
+        padding: 4px 0;
+    }
+
+
+    .cart_info .order .product
+    {
+        position: relative;
+
+        min-height: 90px;
+        padding-left: 90px;
+
+        gap: 12px;
+    }
+
+
+    .cart_info .order .product .thumb
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+
+    .cart_info .order .product .name
+    {
+        font-size: var(--font_size);
+
+        width: 100%;
+        padding-right: 40px;
+    }
+
+
+    .cart_info .order .product .color
+    {
+        width: 40px;
+    }
+
+
+    .cart_info .order .product .color span
+    {
+        width: 40px;
+        height: 12px;
+    }
+
+
+    .cart_info .order .product .delete
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+
+    .cart_info .order .product .delete .btn
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    .cart_info .empty .desc
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Side modal
+    ----------------*/
+    .side_modal
+    {
+        width: 100%;
+        padding: 20px;
+    }
+
+
+    .side_modal .close_btn
+    {
+        top: 10px;
+        right: 10px;
+    }
+
+
+
+    /*----------------------------------
+        Side modal - Mini cart modal
+    ----------------------------------*/
+    #mini_cart_modal .scroll
+    {
+        max-height: calc(100vh - 203px);
+    }
+
+
+    #mini_cart_modal .product .name
+    {
+        font-size: 15px;
+    }
+
+
+    #mini_cart_modal .product .price
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*--------------
+        Lookbook
+    --------------*/
+    .lookbook .row > *
+    {
+        width: calc(50% - 4px);
+    }
+
+
+    .lookbook .row > *.middle
+    {
+        width: calc(100% - 4px);
+    }
+
+
+    .lookbook .item .name
+    {
+        padding: 40px;
+    }
+
+
+    .lookbook .item .buy_btn
+    {
+        right: auto;
+        left: 50%;
+
+        transform: translateX(-50%);
+        white-space: nowrap;
+    }
+
+
+
+    /*---------------
+        Materials
+    ---------------*/
+    .materials .swiper
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+
+
+    .materials .swiper-slide
+    {
+        width: 140px;
+    }
+
+
+    .materials .swiper-scrollbar
+    {
+        display: block;
+    }
+
+
+    .materials .item
+    {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+
+    .materials .item .thumb
+    {
+        margin-bottom: 10px;
+    }
+
+
+
+    /*-------------------
+        Material info
+    -------------------*/
+    .material_info .data
+    {
+        order: 2;
+
+        width: 100%;
+    }
+
+
+    .material_info .info
+    {
+        width: 100%;
+    }
+
+
+    .material_info .info .name
+    {
+        font-size: 22px;
+    }
+
+
+    .material_info .info .buy_btn
+    {
+        font-size: 13px;
+        line-height: 9px;
+    }
+
+
+    .material_info .features
+    {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        width: 100%;
+        margin-top: 20px;
+
+        gap: 16px 20px;
+    }
+
+
+    .material_info .features > *
+    {
+        width: calc(50% - 10px);
+    }
+
+
+    .material_info .slider
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+
+
+    .material_info .slider .swiper-button-next,
+    .material_info .slider .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+    .material_info .slider .swiper-scrollbar
+    {
+        display: block;
+    }
+
+
+    .material_info .slider .product .thumb
+    {
+        margin-bottom: 10px;
+    }
+
+
+    .material_info .slider .product .material,
+    .material_info .slider .product .name
+    {
+        line-height: 16px;
+
+        padding: 0 20px;
+    }
+
+
+    .material_info .slider .product .name
+    {
+        margin-top: 4px;
+    }
+
+
+    .material_info .image
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+
+
+
+    /*----------------------
+        Select size head
+    ----------------------*/
+    .select_size_head .cont
+    {
+        min-height: 0;
+    }
+
+
+    .select_size_head .data
+    {
+        width: 100%;
+        padding-top: 180px;
+        padding-bottom: 0;
+    }
+
+
+    .select_size_head .desc
+    {
+        margin-top: 20px;
+    }
+
+
+    .select_size_head .bg
+    {
+        height: 200px;
+    }
+
+
+
+    /*----------------------
+        How measure size
+    ----------------------*/
+    .how_measure_size .row
+    {
+        margin-left: 0;
+    }
+
+
+    .how_measure_size .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .how_measure_size .image
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+
+
+    .how_measure_size .item .thumb
+    {
+        height: 196px;
+    }
+
+
+    .how_measure_size .item .name
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .how_measure_size .item .desc
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*-----------
+        Quote
+    -----------*/
+    .quote
+    {
+        padding: 60px 0;
+    }
+
+
+
+    /*----------------
+        Size table
+    ----------------*/
+    .size_table .data
+    {
+        padding: 32px 0 0 32px;
+    }
+
+
+    .size_table .cols_title
+    {
+        font-size: 16px;
+    }
+
+
+    .size_table .rows_title
+    {
+        font-size: 16px;
+
+        height: calc(100% - 32px);
+    }
+
+
+    .size_table table th,
+    .size_table table td
+    {
+        font-size: 14px;
+
+        height: 68px;
+        padding: 3px;
+    }
+
+
+    .size_table table th small
+    {
+        font-size: 10px;
+
+        margin-top: 2px;
+    }
+
+
+
+    /*-----------------------------
+        Select size description
+    -----------------------------*/
+    .select_size_description .text_block
+    {
+        line-height: calc(100% + 4px);
+    }
+
+
+    .select_size_description .row
+    {
+        margin-left: 0;
+    }
+
+
+    .select_size_description .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .select_size_description .item
+    {
+        text-align: center;
+    }
+
+
+    .select_size_description .item .thumb
+    {
+        justify-content: center;
+
+        height: 196px;
+    }
+
+
+    .select_size_description .item .name
+    {
+        font-size: var(--font_size);
+
+        justify-content: center;
+    }
+
+
+    .select_size_description .item .desc
+    {
+        margin-top: 10px;
+    }
+
+
+
+    /*-----------------------
+        Cups - dimensions
+    -----------------------*/
+    .cups_dimensions .data
+    {
+        padding-top: 32px;
+        padding-left: 32px;
+    }
+
+
+    .cups_dimensions table th,
+    .cups_dimensions table td
+    {
+        font-size: 14px;
+
+        height: 60px;
+    }
+
+
+    .cups_dimensions table th small
+    {
+        font-size: 10px;
+
+        margin-top: 2px;
+    }
+
+
+
+    /*-----------------
+        Full banner
+    -----------------*/
+    .full_banner
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .full_banner .cont
+    {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+
+    .full_banner .data
+    {
+        width: 220px;
+    }
+
+
+
+    /*---------------------
+        Socials gallery
+    ---------------------*/
+    .socials_gallery .swiper
+    {
+        width: calc(100% + 20px);
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .images
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+
+
+    .product_info .data > .head .name
+    {
+        font-size: 18px;
+
+        width: calc(100% - 80px);
+    }
+
+
+    .product_info .data > .head .price
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .filter
+    {
+        min-width: 0;
+    }
+
+
+    .reviews .filter .btn span,
+    .reviews .sort .btn span
+    {
+        display: none;
+    }
+
+
+
+    .reviews .list
+    {
+        gap: 48px;
+    }
+
+
+    .reviews .value
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .reviews .value .val,
+    .reviews .value .percents
+    {
+        font-size: 16px;
+    }
+
+
+    .reviews .value .stars .icon
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    .reviews .review .col_main
+    {
+        order: 3;
+
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+
+    /*-------------------
+        Checkout info
+    -------------------*/
+    .checkout_info .prices
+    {
+        padding: 0 40px;
+    }
+
+
+    .checkout_info .checkout_btn
+    {
+        line-height: 16px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 60px 0;
+
+        border-top: 1px solid #e6e6e6;
+    }
+
+
+    footer .title
+    {
+        font-size: var(--font_size);
+
+        margin-bottom: 24px;
+    }
+
+
+    footer .links
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 40px;
+    }
+
+
+    footer .col_right
+    {
+        margin-top: 0;
+    }
+
+
+    footer .col_right .links
+    {
+        width: 100%;
+        margin: 0;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 400px;
+        padding: 23px;
+    }
+
+
+    .modal .form
+    {
+        margin-top: 32px;
+    }
+
+
+    .modal .form .line.row .label
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+    .modal .form .line.row .field
+    {
+        width: 100%;
+    }
+
+
+    .modal .form .toggle_field .label
+    {
+        margin-bottom: 0;
+    }
+}

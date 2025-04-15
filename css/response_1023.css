@@ -1,0 +1,1188 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 24px;
+        --font_size_title_big: 30px;
+    }
+
+
+
+    .block.big_m
+    {
+        margin-bottom: 80px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*----------------
+        Top banner
+    ----------------*/
+    .top_banner
+    {
+        padding: 12px 0;
+    }
+
+
+    .top_banner .text
+    {
+        font-size: var(--font_size);
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo img
+    {
+        width: 160px;
+        height: 16px;
+    }
+
+
+    header .menu
+    {
+        gap: 20px;
+    }
+
+
+    header .icons_links
+    {
+        min-width: 0;
+
+        gap: 20px;
+    }
+
+
+    header .sub_menu
+    {
+        padding: 40px 0;
+    }
+
+
+    header .sub_menu .main
+    {
+        width: 200px;
+    }
+
+
+    header .sub_menu .main a
+    {
+        padding: 8px 0;
+    }
+
+
+    header .sub_menu .sub
+    {
+        width: calc(100% - 224px);
+    }
+
+
+
+    header .menu_modal
+    {
+        padding: 40px 0;
+    }
+
+
+    header .menu_modal .search
+    {
+        width: calc(100% - 248px);
+    }
+
+
+    header .menu_modal .links
+    {
+        width: 200px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .breadcrumbs
+    {
+        font-size: 12px;
+    }
+
+
+    .page_head .back_link
+    {
+        font-size: 12px;
+    }
+
+
+    .page_head .back_link .icon
+    {
+        width: 20px;
+        height: 10px;
+    }
+
+
+
+    .page_head .mob_current_link
+    {
+        display: flex;
+    }
+
+
+    .page_head .links
+    {
+        font-size: var(--font_size);
+
+        position: absolute;
+        z-index: 5;
+        top: 100%;
+        left: 0;
+
+        display: none;
+
+        width: 100%;
+        margin: 0;
+        padding: 24px 0;
+
+        border: none;
+        background: var(--bg);
+    }
+
+
+    .page_head .links .cont
+    {
+        flex-direction: column;
+
+        gap: 15px;
+    }
+
+
+    .page_head .links a
+    {
+        padding: 0;
+    }
+
+
+    .page_head .links a:after
+    {
+        display: none;
+    }
+
+
+    .page_head .links a.active
+    {
+        padding-left: 14px;
+
+        border-left: 2px solid;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .toggle_field .label
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .text_block > *
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .cont,
+    .top_banner ~ .main_slider .cont
+    {
+        height: 440px;
+        min-height: 0;
+    }
+
+
+    .main_slider .data
+    {
+        gap: 20px;
+    }
+
+
+    .main_slider .link a
+    {
+        line-height: 16px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .banner .btn
+    {
+        line-height: 16px;
+
+        margin-top: 20px;
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories .category .name
+    {
+        padding: 40px 20px;
+    }
+
+
+    .categories .category .btn
+    {
+        line-height: 16px;
+
+        bottom: 40px;
+    }
+
+
+
+    /*-----------------------
+        Big promo product
+    -----------------------*/
+    .big_promo_product .cont
+    {
+        height: 650px;
+    }
+
+
+    .big_promo_product .data
+    {
+        width: 40%;
+        margin-left: 60%;
+    }
+
+
+    .big_promo_product .desc
+    {
+        font-size: var(--font_size);
+    }
+
+
+
+    /*------------
+        Banner
+    ------------*/
+    .banner
+    {
+        display: none;
+    }
+
+
+    .banner .data
+    {
+        width: calc(50% - 24px);
+        margin-left: 0;
+    }
+
+
+    .banner .image + .data
+    {
+        margin-right: 0;
+    }
+
+
+    .banner .desc
+    {
+        font-size: var(--font_size);
+    }
+
+
+
+    /*-----------------
+        Information
+    -----------------*/
+    .information
+    {
+        display: none;
+    }
+
+
+
+    /*-----------
+        Video
+    -----------*/
+    .video .link .icon
+    {
+        width: 60px;
+        height: 42px;
+    }
+
+
+
+    /*---------------
+        Expensive
+    ---------------*/
+    .expensive
+    {
+        padding: 80px 0;
+    }
+
+
+    .expensive .title
+    {
+        font-size: 36px;
+    }
+
+
+
+    /*----------
+        Auth
+    ----------*/
+    .auth .or
+    {
+        font-size: var(--font_size);
+    }
+
+
+
+    /*-------------
+        LK info
+    -------------*/
+    .lk_info aside
+    {
+        width: calc(100% + 48px);
+        max-width: calc(100% + 48px);
+        margin-top: -40px;
+        margin-right: -24px;
+        margin-bottom: 40px;
+        margin-left: -24px;
+        padding: 24px 24px 0;
+
+        background: #e7e6e2;
+    }
+
+
+    .lk_info aside .mob_logout_btn
+    {
+        display: block;
+    }
+
+
+    .lk_info aside .mob_current_link
+    {
+        display: flex;
+    }
+
+
+    .lk_info aside .links
+    {
+        font-size: var(--font_size);
+
+        position: absolute;
+        z-index: 5;
+        top: 100%;
+        left: 0;
+
+        display: none;
+
+        width: 100%;
+        margin: 0;
+        padding: 24px;
+
+        background: var(--bg);
+    }
+
+
+    .lk_info aside .links > * + *
+    {
+        margin-top: 15px;
+    }
+
+
+    .lk_info aside .links a.active
+    {
+        padding-left: 14px;
+
+        border-left: 2px solid;
+    }
+
+
+    .lk_info aside .btns
+    {
+        display: none;
+    }
+
+
+
+    .lk_info .content
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------------
+        Terms of service
+    ----------------------*/
+    .terms_of_service .date,
+    .terms_of_service .text_block
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*--------------------
+        Privacy policy
+    --------------------*/
+    .privacy_policy .date,
+    .privacy_policy .text_block
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*-------------------
+        Delivery info
+    -------------------*/
+    .delivery_info .section + .section
+    {
+        margin-top: 64px;
+    }
+
+
+    .delivery_info .methods
+    {
+        margin-top: 32px;
+
+        gap: 32px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        gap: 32px;
+    }
+
+
+
+    /*----------------
+        Error page
+    ----------------*/
+    .error_page
+    {
+        padding-top: 39px;
+    }
+
+
+    .error_page .data
+    {
+        padding: 80px 24px;
+    }
+
+
+    .error_page .code
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .error_page .link a
+    {
+        width: 360px;
+    }
+
+
+
+    /*----------------------
+        Checkout success
+    ----------------------*/
+    .checkout_success
+    {
+        padding: 80px 0;
+    }
+
+
+    .checkout_success .logo
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .checkout_success .desc
+    {
+        font-size: var(--font_size);
+
+        width: 400px;
+    }
+
+
+    .checkout_success .link a
+    {
+        width: 360px;
+    }
+
+
+
+    /*---------------
+        Cart info
+    ---------------*/
+    .cart_info
+    {
+        padding-top: 39px;
+    }
+
+
+
+    .cart_info .order .product .name
+    {
+        font-size: 15px;
+
+        width: calc(100% - 542px);
+    }
+
+
+    .cart_info .order .product .color
+    {
+        width: 48px;
+    }
+
+
+    .cart_info .order .product .color span
+    {
+        width: 48px;
+        height: 16px;
+    }
+
+
+    .cart_info .order .product .size
+    {
+        width: 100px;
+    }
+
+
+    .cart_info .order .product .amount
+    {
+        width: 100px;
+    }
+
+
+    .cart_info .order .product .price
+    {
+        font-size: 15px;
+
+        width: 72px;
+    }
+
+
+    .cart_info .order .product .delete .btn
+    {
+        width: 32px;
+        height: 32px;
+    }
+
+
+
+    .cart_info .empty .logo
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .cart_info .empty .desc
+    {
+        font-size: var(--font_size);
+
+        width: 400px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .swiper-button-next,
+    .products .swiper-button-prev
+    {
+        margin-bottom: 35px;
+    }
+
+
+    .filter_open .products .row
+    {
+        padding: 0;
+    }
+
+
+    .products .row > *,
+    .filter_open .products .row > *
+    {
+        width: calc(33.333% - 4px);
+    }
+
+
+    .products .banner,
+    .filter_open .products .banner
+    {
+        width: calc(100% - 4px);
+        margin-bottom: 60px;
+    }
+
+
+    .products .more
+    {
+        padding-top: 60px;
+        padding-bottom: 0;
+    }
+
+
+
+    /*--------------
+        Lookbook
+    --------------*/
+    .lookbook
+    {
+        gap: 40px;
+    }
+
+
+    .lookbook .item .name
+    {
+        padding: 32px;
+    }
+
+
+
+    /*-------------------
+        Material info
+    -------------------*/
+    .material_info .data
+    {
+        order: 2;
+
+        width: 100%;
+    }
+
+
+    .material_info .info
+    {
+        width: calc(100% - 204px);
+    }
+
+
+    .material_info .features
+    {
+        width: 180px;
+    }
+
+
+    .material_info .slider
+    {
+        width: 100%;
+    }
+
+
+    .material_info .image
+    {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+
+
+    /*----------------------
+        Select size head
+    ----------------------*/
+    .select_size_head .cont
+    {
+        min-height: 360px;
+    }
+
+
+    .select_size_head .data
+    {
+        width: 340px;
+    }
+
+
+    .select_size_head .desc
+    {
+        font-size: var(--font_size);
+        line-height: calc(100% + 4px);
+    }
+
+
+
+    /*----------------------
+        How measure size
+    ----------------------*/
+    .how_measure_size .item .thumb
+    {
+        height: 140px;
+        margin-bottom: 20px;
+    }
+
+
+    .how_measure_size .item .name
+    {
+        font-size: 15px;
+    }
+
+
+    .how_measure_size .item .desc
+    {
+        font-size: var(--font_size);
+        line-height: calc(100% + 4px);
+    }
+
+
+
+    /*-----------
+        Quote
+    -----------*/
+    .quote
+    {
+        padding: 68px 0;
+    }
+
+
+    .quote .author
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .quote .icon
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*----------------
+        Size table
+    ----------------*/
+    .size_table
+    {
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+
+
+    .size_table .data
+    {
+        padding: 48px 0 0 48px;
+    }
+
+
+    .size_table .cols_title
+    {
+        font-size: 20px;
+    }
+
+
+    .size_table .rows_title
+    {
+        font-size: 20px;
+
+        height: calc(100% - 48px);
+    }
+
+
+    .size_table table th,
+    .size_table table td
+    {
+        font-size: 20px;
+
+        height: 100px;
+        padding: 11px;
+    }
+
+
+    .size_table table th small
+    {
+        font-size: var(--font_size);
+
+        margin-top: 6px;
+    }
+
+
+
+    /*-----------------------------
+        Select size description
+    -----------------------------*/
+    .select_size_description .text_block
+    {
+        font-size: var(--font_size);
+        line-height: calc(100% + 6px);
+    }
+
+
+    .select_size_description .row
+    {
+        margin-left: -24px;
+    }
+
+
+    .select_size_description .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-left: 24px;
+    }
+
+
+    .select_size_description .item .thumb
+    {
+        height: 152px;
+    }
+
+
+    .select_size_description .item .name
+    {
+        font-size: 15px;
+    }
+
+
+    .select_size_description .item .desc
+    {
+        font-size: var(--font_size);
+        line-height: calc(100% + 4px);
+    }
+
+
+
+    /*-----------------------
+        Cups - dimensions
+    -----------------------*/
+    .cups_dimensions .data
+    {
+        width: 100%;
+    }
+
+
+    .cups_dimensions .cols_title
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .cups_dimensions .rows_title
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .cups_dimensions table th,
+    .cups_dimensions table td
+    {
+        font-size: 15px;
+
+        height: 68px;
+    }
+
+
+    .cups_dimensions .desc
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+
+    /*-----------------
+        Full banner
+    -----------------*/
+    .full_banner
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .full_banner .cont
+    {
+        min-height: 240px;
+    }
+
+
+    .full_banner .data
+    {
+        width: 280px;
+    }
+
+
+    .full_banner .desc
+    {
+        font-size: var(--font_size);
+    }
+
+
+
+    /*---------------------
+        Socials gallery
+    ---------------------*/
+    .socials_gallery .data
+    {
+        width: 100%;
+    }
+
+
+    .socials_gallery .swiper
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+
+
+    .socials_gallery .swiper-slide
+    {
+        width: 200px;
+    }
+
+
+    .socials_gallery .swiper-scrollbar
+    {
+        display: block;
+    }
+
+
+    .socials_gallery .item
+    {
+        min-height: 0;
+    }
+
+
+    .socials_gallery .item .socials
+    {
+        top: 15px;
+        left: 15px;
+
+        opacity: 1;
+    }
+
+
+    .socials_gallery .item .name
+    {
+        display: none;
+    }
+
+
+    .socials_gallery .item:hover .img
+    {
+        height: 220px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .cont
+    {
+        position: relative;
+
+        overflow: clip;
+    }
+
+
+    .product_info .images
+    {
+        position: sticky;
+        top: 0;
+
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+        padding-bottom: 132.967vw;
+
+        background: #ddd;
+    }
+
+
+    .product_info .images .swiper
+    {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+    }
+
+
+    .product_info .images .swiper-pagination
+    {
+        display: flex;
+    }
+
+
+    .product_info .data
+    {
+        position: relative;
+        z-index: 3;
+
+        width: calc(100% + 48px);
+        max-width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+        padding: 24px 24px 0;
+
+        background: var(--bg);
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .value .val,
+    .reviews .value .percents
+    {
+        font-size: 18px;
+    }
+
+
+    .reviews .value .stars .icon
+    {
+        width: 28px;
+        height: 28px;
+    }
+
+
+    .reviews .review .col_main
+    {
+        width: calc(100% - 338px);
+    }
+
+
+    .reviews .review .text
+    {
+        line-height: 20px;
+    }
+
+
+    .reviews .review .images a
+    {
+        width: 112px;
+        height: 112px;
+    }
+
+
+    .reviews .review .result
+    {
+        margin-top: 20px;
+    }
+
+
+    .reviews .more
+    {
+        padding-top: 60px;
+        padding-bottom: 0;
+    }
+
+
+
+    /*-------------------
+        Checkout info
+    -------------------*/
+    .checkout_info .col_main
+    {
+        width: 100%;
+    }
+
+
+    .checkout_info .col_right
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+    .checkout_info .links
+    {
+        display: none;
+    }
+
+
+    .checkout_info .prices
+    {
+        margin: 0;
+        padding: 0 48px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 80px 0;
+    }
+
+
+    footer .title
+    {
+        font-size: 15px;
+
+        margin-bottom: 32px;
+    }
+
+
+    footer .links .items,
+    footer .copyright
+    {
+        font-size: var(--font_size);
+    }
+
+
+    footer .col_right
+    {
+        position: relative;
+
+        width: 100%;
+        margin-top: 40px;
+
+        text-align: left;
+    }
+
+
+    footer .buttonUp
+    {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+
+        margin: 0;
+    }
+}

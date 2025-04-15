@@ -1,0 +1,1139 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 28px;
+        --font_size_title_big: 36px;
+    }
+
+
+    .swiper-button-prev
+    {
+        left: 10px;
+    }
+
+    .swiper-button-next
+    {
+        right: 10px;
+    }
+
+
+    .cont
+    {
+        padding: 0 24px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .submit_btn
+    {
+        padding: 12px 20px;
+    }
+
+
+
+    /*----------------
+        Top banner
+    ----------------*/
+    .top_banner .close_btn
+    {
+        left: 0;
+    }
+
+
+    .top_banner .text
+    {
+        font-size: 15px;
+        line-height: calc(100% + 4px);
+    }
+
+
+    .top_banner .link
+    {
+        right: 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 24px 0;
+    }
+
+
+    header .menu
+    {
+        gap: 28px;
+    }
+
+
+    header .icons_links
+    {
+        gap: 24px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head .links
+    {
+        margin-top: 220px;
+    }
+
+
+    .page_head .links .cont
+    {
+        gap: 48px;
+    }
+
+
+    .page_head .links a
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .submit_btn
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .cont
+    {
+        min-height: calc(100vh - 68px);
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+
+    .top_banner ~ .main_slider .cont
+    {
+        min-height: calc(100vh - 119px);
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories .category .name
+    {
+        padding: 52px 24px;
+    }
+
+
+    .categories .category .btn
+    {
+        bottom: 52px;
+    }
+
+
+
+    /*-----------------------
+        Big promo product
+    -----------------------*/
+    .big_promo_product .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .big_promo_product .buy_btn
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*------------
+        Banner
+    ------------*/
+    .banner .image
+    {
+        margin-left: -24px;
+    }
+
+    .banner .data + .image
+    {
+        margin-right: -24px;
+    }
+
+
+    .banner .data
+    {
+        width: 400px;
+        margin-left: 80px;
+    }
+
+
+    .banner .image + .data
+    {
+        margin-right: 80px;
+    }
+
+
+    .banner .desc
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*---------------
+        Expensive
+    ---------------*/
+    .expensive
+    {
+        padding: 140px 0;
+    }
+
+
+    .expensive .title
+    {
+        font-size: 52px;
+    }
+
+
+
+    /*----------
+        Auth
+    ----------*/
+    .auth .title
+    {
+        font-size: 20px;
+    }
+
+
+    .auth .desc
+    {
+        font-size: 16px;
+        line-height: calc(100% + 4px);
+
+        width: 440px;
+    }
+
+
+    .auth .link a
+    {
+        font-size: 15px;
+
+        width: 440px;
+    }
+
+
+    .auth .or
+    {
+        font-size: 15px;
+
+        margin-top: 16px;
+    }
+
+
+
+    /*-------------
+        LK info
+    -------------*/
+    .lk_info aside .welcome
+    {
+        font-size: 15px;
+    }
+
+
+    .lk_info aside .email
+    {
+        line-height: calc(100% + 8px);
+
+        margin-top: 4px;
+    }
+
+
+    .lk_info aside .links
+    {
+        font-size: 15px;
+
+        margin-top: 60px;
+    }
+
+
+    .lk_info aside .btns
+    {
+        font-size: 15px;
+
+        margin-top: 80px;
+    }
+
+
+
+    .lk_info .content
+    {
+        width: calc(100% - 280px);
+    }
+
+
+    .lk_info .content .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .head
+    {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+
+    .products .sort .mini_modal .btn
+    {
+        font-size: 15px;
+    }
+
+
+    .products .swiper-button-next,
+    .products .swiper-button-prev
+    {
+        margin-bottom: 37px;
+    }
+
+
+    .products .banner,
+    .filter_open .products .banner
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .products .product .info
+    {
+        padding: 16px 16px 0;
+
+        gap: 8px;
+    }
+
+
+    .products .more
+    {
+        padding-top: 120px;
+        padding-bottom: 60px;
+    }
+
+
+    .products .filter
+    {
+        padding: 24px;
+
+        gap: 32px;
+    }
+
+
+
+    /*---------------
+        Addresses
+    ---------------*/
+    .addresses .address
+    {
+        font-size: 16px;
+
+        padding: 15px;
+    }
+
+
+    .addresses .address .name
+    {
+        width: 200px;
+    }
+
+
+    .addresses .address .location
+    {
+        width: calc(100% - 264px);
+    }
+
+
+    .addresses .address .actions .mini_modal
+    {
+        font-size: var(--font_size);
+
+        min-width: 140px;
+        padding: 11px;
+
+        gap: 10px;
+    }
+
+
+
+    /*------------
+        Orders
+    ------------*/
+    .orders .list
+    {
+        gap: 32px;
+    }
+
+
+    .orders .order .head
+    {
+        font-size: 15px;
+
+        padding: 15px 23px;
+    }
+
+
+    .orders .order .head .arr
+    {
+        margin-left: 24px;
+    }
+
+
+    .orders .order .data
+    {
+        padding: 0 23px 20px;
+    }
+
+
+    .orders .order .product .thumb
+    {
+        width: 150px;
+        height: 200px;
+    }
+
+
+    .orders .order .product .info
+    {
+        width: calc(100% - 174px);
+        min-height: 200px;
+        padding: 24px 0;
+    }
+
+
+    .orders .order .product .amount
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*----------------------
+        Terms of service
+    ----------------------*/
+    .terms_of_service .date
+    {
+        font-size: 15px;
+
+        margin-top: 40px;
+    }
+
+
+
+    /*--------------------
+        Privacy policy
+    --------------------*/
+    .privacy_policy .date
+    {
+        font-size: 15px;
+
+        margin-top: 40px;
+    }
+
+
+
+    /*-------------------
+        Delivery info
+    -------------------*/
+    .delivery_info .sub_title
+    {
+        margin-top: 24px;
+    }
+
+
+    .delivery_info .methods
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        gap: 40px;
+    }
+
+
+
+    /*----------------
+        Error page
+    ----------------*/
+    .error_page
+    {
+        padding-top: 47px;
+    }
+
+
+    .error_page .page_title
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .error_page .data
+    {
+        padding: 100px 24px;
+    }
+
+
+    .error_page .code
+    {
+        font-size: 16px;
+        line-height: calc(100% + 4px);
+    }
+
+
+    .error_page .link
+    {
+        margin-top: 24px;
+    }
+
+
+    .error_page .link a
+    {
+        width: 400px;
+    }
+
+
+
+    /*----------------------
+        Checkout success
+    ----------------------*/
+    .checkout_success
+    {
+        padding: 100px 0;
+    }
+
+
+    .checkout_success .logo
+    {
+        font-size: 16px;
+        line-height: calc(100% + 4px);
+    }
+
+
+    .checkout_success .desc
+    {
+        font-size: 18px;
+        line-height: calc(100% + 4px);
+
+        width: 500px;
+    }
+
+
+    .checkout_success .link
+    {
+        margin-top: 24px;
+    }
+
+
+    .checkout_success .link a
+    {
+        width: 400px;
+    }
+
+
+
+    /*---------------
+        Cart info
+    ---------------*/
+    .cart_info
+    {
+        padding-top: 47px;
+    }
+
+
+    .cart_info .block_title
+    {
+        left: 24px;
+    }
+
+
+    .cart_info .data
+    {
+        width: 900px;
+    }
+
+
+    .cart_info .order .product .name
+    {
+        width: calc(100% - 657px);
+    }
+
+
+    .cart_info .order .product .color
+    {
+        width: 100px;
+    }
+
+
+    .cart_info .order .product .size
+    {
+        width: 120px;
+    }
+
+
+    .cart_info .order .product .amount
+    {
+        width: 130px;
+    }
+
+
+    .cart_info .empty .logo
+    {
+        font-size: 16px;
+        line-height: calc(100% + 4px);
+    }
+
+
+    .cart_info .empty .desc
+    {
+        font-size: 18px;
+        line-height: calc(100% + 4px);
+
+        width: 500px;
+    }
+
+
+    .cart_info .empty .btn
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*----------------
+        Side modal
+    ----------------*/
+    .side_modal
+    {
+        width: 440px;
+        padding: 60px 24px 24px;
+    }
+
+
+
+    /*----------------------------------
+        Side modal - Mini cart modal
+    ----------------------------------*/
+    #mini_cart_modal .scroll
+    {
+        max-height: calc(100vh - 249px);
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+
+    #mini_cart_modal .product .info
+    {
+        gap: 16px;
+    }
+
+
+    #mini_cart_modal .product .name
+    {
+        font-size: 18px;
+    }
+
+
+    #mini_cart_modal .product .price
+    {
+        font-size: 18px;
+        line-height: 100%;
+    }
+
+
+    #mini_cart_modal .total_pirce
+    {
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+
+
+    /*--------------
+        Lookbook
+    --------------*/
+    .lookbook .item .name
+    {
+        padding: 48px;
+    }
+
+
+
+    /*-------------------
+        Material info
+    -------------------*/
+    .material_info .data
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .material_info .info
+    {
+        width: calc(100% - 188px);
+    }
+
+
+    .material_info .features
+    {
+        width: 164px;
+    }
+
+
+    .material_info .slider
+    {
+        width: 100%;
+        margin: 40px 0 0;
+    }
+
+
+    .material_info .image
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*----------------------
+        Select size head
+    ----------------------*/
+    .select_size_head .cont
+    {
+        min-height: 480px;
+    }
+
+
+    .select_size_head .data
+    {
+        width: 400px;
+        padding: 24px 0;
+    }
+
+
+    .select_size_head .desc
+    {
+        font-size: 16px;
+        line-height: calc(100% + 8px);
+    }
+
+
+
+    /*----------------------
+        How measure size
+    ----------------------*/
+    .how_measure_size .row
+    {
+        margin-bottom: -40px;
+        margin-left: -40px;
+        padding: 0;
+    }
+
+
+    .how_measure_size .row > *
+    {
+        width: calc(33.333% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+
+    .how_measure_size .item .thumb
+    {
+        height: 180px;
+        margin-bottom: 32px;
+    }
+
+
+    .how_measure_size .item .name
+    {
+        font-size: 18px;
+
+        min-height: 0;
+    }
+
+
+    .how_measure_size .item .desc
+    {
+        font-size: 16px;
+        line-height: calc(100% + 8px);
+    }
+
+
+
+    /*----------------
+        Size table
+    ----------------*/
+    .size_table .data
+    {
+        padding: 68px 0 0 68px;
+    }
+
+
+    .size_table .cols_title
+    {
+        font-size: 28px;
+    }
+
+
+    .size_table .rows_title
+    {
+        font-size: 28px;
+
+        height: calc(100% - 68px);
+    }
+
+
+    .size_table table th,
+    .size_table table td
+    {
+        font-size: 28px;
+
+        height: 132px;
+    }
+
+
+    .size_table table th small
+    {
+        font-size: 18px;
+        line-height: calc(100% + 6px);
+    }
+
+
+
+    /*-----------------------------
+        Select size description
+    -----------------------------*/
+    .select_size_description .text_block
+    {
+        font-size: 16px;
+        line-height: calc(100% + 10px);
+
+        width: 1064px;
+    }
+
+
+    .select_size_description .row
+    {
+        margin-left: -60px;
+    }
+
+
+    .select_size_description .row > *
+    {
+        width: calc(33.333% - 60px);
+        margin-left: 60px;
+    }
+
+
+    .select_size_description .item .thumb
+    {
+        height: 240px;
+    }
+
+
+    .select_size_description .item .name
+    {
+        font-size: 18px;
+
+        min-height: 0;
+    }
+
+
+    .select_size_description .item .desc
+    {
+        font-size: 16px;
+        line-height: calc(100% + 8px);
+
+        margin-top: 16px;
+    }
+
+
+
+    /*-----------------------
+        Cups - dimensions
+    -----------------------*/
+    .cups_dimensions
+    {
+        padding: 60px 0 80px;
+    }
+
+
+    .cups_dimensions .cols_title
+    {
+        font-size: 16px;
+    }
+
+
+    .cups_dimensions .rows_title
+    {
+        font-size: 16px;
+
+        height: calc(100% - 68px);
+    }
+
+
+    .cups_dimensions table th,
+    .cups_dimensions table td
+    {
+        font-size: 18px;
+
+        height: 80px;
+    }
+
+
+    .cups_dimensions table th small
+    {
+        font-size: 11px;
+
+        margin-top: 4px;
+    }
+
+
+    .cups_dimensions .desc
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*-----------------
+        Full banner
+    -----------------*/
+    .full_banner
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .full_banner .cont
+    {
+        min-height: 320px;
+    }
+
+
+    .full_banner .data
+    {
+        width: 440px;
+    }
+
+
+    .full_banner .desc
+    {
+        font-size: 16px;
+        line-height: calc(100% + 4px);
+    }
+
+
+
+    /*---------------------
+        Socials gallery
+    ---------------------*/
+    .socials_gallery .data
+    {
+        width: 1116px;
+    }
+
+
+    .socials_gallery .swiper-slide
+    {
+        width: 220px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .images
+    {
+        width: calc(100% - 425px);
+        margin-left: -19px;
+    }
+
+
+    .product_info .data
+    {
+        width: 420px;
+    }
+
+
+    .product_info .data > .head .name
+    {
+        font-size: 20px;
+
+        width: calc(100% - 84px);
+    }
+
+
+    .product_info .data > .head .price
+    {
+        font-size: 20px;
+    }
+
+
+    .product_info .color
+    {
+        margin-top: 48px;
+    }
+
+
+    .product_info .size,
+    .product_info .btns,
+    .product_info .messengers
+    {
+        margin-top: 32px;
+    }
+
+
+    .product_info .your_own_set
+    {
+        margin-top: 60px;
+    }
+
+
+
+    .product_info .your_own_set .product .thumb
+    {
+        width: 140px;
+        height: 140px;
+    }
+
+
+    .product_info .your_own_set .product .info
+    {
+        width: calc(100% - 160px);
+        min-height: 140px;
+        padding-top: 0;
+    }
+
+
+    .product_info .color .items,
+    .product_info .size .items
+    {
+        gap: 8px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .sort .mini_modal .btn
+    {
+        font-size: 15px;
+    }
+
+
+    .reviews .value .val,
+    .reviews .value .percents
+    {
+        font-size: 20px;
+    }
+
+
+    .reviews .review .col_main
+    {
+        width: calc(100% - 400px);
+    }
+
+
+    .reviews .more
+    {
+        padding-top: 120px;
+        padding-bottom: 60px;
+    }
+
+
+
+    /*-------------------
+        Checkout info
+    -------------------*/
+    .checkout_info .col_main
+    {
+        width: calc(100% - 348px);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 92px 0;
+    }
+
+
+    footer .links .items,
+    footer .copyright
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 600px;
+    }
+
+
+    .modal .form .line.row .label
+    {
+        width: 124px;
+    }
+
+
+    .modal .form .line.row .field
+    {
+        width: calc(100% - 134px);
+    }
+}
