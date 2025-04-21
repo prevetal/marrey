@@ -723,6 +723,14 @@ document.addEventListener('DOMContentLoaded', function() {
 		$(this).toggleClass('active')
 		$('.cart_info .checkout_info').slideToggle(300)
 	})
+
+
+	// Product to favorites
+	$('.favorite_btn').click(function(e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active')
+	})
 })
 
 
