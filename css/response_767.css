@@ -897,6 +897,24 @@
     }
 
 
+    .cart_info .promocode
+    {
+        text-align: center;
+    }
+
+
+    .cart_info .mob_checkout_btn
+    {
+        display: block;
+    }
+
+
+    .cart_info .checkout_info
+    {
+        display: none;
+    }
+
+
     .cart_info .empty .desc
     {
         width: 100%;
@@ -972,6 +990,14 @@
 
         transform: translateX(-50%);
         white-space: nowrap;
+    }
+
+
+    .lookbook .description
+    {
+        padding: 0 20px;
+
+        text-align: left;
     }
 
 
@@ -1366,17 +1392,39 @@
     }
 
 
+    .product_info .data
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+
     .product_info .data > .head .name
     {
         font-size: 18px;
 
-        width: calc(100% - 80px);
+        width: 100%;
     }
 
 
     .product_info .data > .head .price
     {
         font-size: 18px;
+
+        margin-top: 12px;
+    }
+
+
+    .product_info .color,
+    .product_info .size
+    {
+        margin-top: 40px;
+    }
+
+
+    .product_info .btns
+    {
+        margin-top: 24px;
     }
 
 
@@ -1384,9 +1432,23 @@
     /*-------------
         Reviews
     -------------*/
+    .reviews .block_head .title
+    {
+        font-size: 18px;
+    }
+
+
     .reviews .filter
     {
         min-width: 0;
+    }
+
+
+    .reviews .filter .mini_modal
+    {
+        left: 0;
+
+        width: calc(100vw - 20px);
     }
 
 
@@ -1410,17 +1472,38 @@
     }
 
 
-    .reviews .value .val,
+    .reviews .value .val
+    {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+
     .reviews .value .percents
     {
-        font-size: 16px;
+        font-size: 14px;
+
+        margin-left: auto;
+    }
+
+
+    .reviews .value .stars
+    {
+        gap: 2px;
     }
 
 
     .reviews .value .stars .icon
     {
-        width: 24px;
-        height: 24px;
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .reviews .value .icon
+    {
+        width: 18px;
+        height: 18px;
     }
 
 
@@ -1522,5 +1605,55 @@
     .modal .form .toggle_field .label
     {
         margin-bottom: 0;
+    }
+
+
+
+    /*-----------------------
+        PopUp - Promocode
+    -----------------------*/
+    #promocode_error_modal
+    {
+        padding: 32px 24px 24px;
+    }
+
+
+    #promocode_error_modal .title
+    {
+        font-size: 20px;
+
+        margin-bottom: 20px;
+    }
+
+
+    #promocode_error_modal .btn
+    {
+        font-size: 14px;
+        line-height: 10px;
+    }
+
+
+
+    /*----------------------------
+        PopUp - Address delete
+    ----------------------------*/
+    #address_delete_modal
+    {
+        padding: 32px 24px 24px;
+    }
+
+
+    #address_delete_modal .title
+    {
+        font-size: 20px;
+
+        margin-bottom: 20px;
+    }
+
+
+    #address_delete_modal .btn
+    {
+        font-size: 14px;
+        line-height: 10px;
     }
 }

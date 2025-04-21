@@ -134,6 +134,12 @@
     /*---------------
         Page head
     ---------------*/
+    .page_head.mob_hide
+    {
+        display: none;
+    }
+
+
     .breadcrumbs
     {
         font-size: 12px;
@@ -330,16 +336,6 @@
     .banner .desc
     {
         font-size: var(--font_size);
-    }
-
-
-
-    /*-----------------
-        Information
-    -----------------*/
-    .information
-    {
-        display: none;
     }
 
 
@@ -1029,6 +1025,7 @@
     .product_info .images
     {
         position: sticky;
+        z-index: 1;
         top: 0;
 
         width: calc(100% + 48px);

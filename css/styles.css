@@ -1666,7 +1666,7 @@ header.fixed
 {
     --form_border_color: #e6e6e6;
     --form_focus_color: #e6e6e6;
-    --form_error_color: red;
+    --form_error_color: #f00;
     --form_bg_color: none;
     --form_placeholder_color: #e6e6e6;
 }
@@ -2011,6 +2011,7 @@ header.fixed
 
 .form .error
 {
+    color: var(--form_error_color);
     border-color: var(--form_error_color);
 }
 
@@ -4938,9 +4939,9 @@ header.fixed
 
     display: inline-block;
 
-    margin-bottom: 20px;
     padding: 5px 0;
 
+    cursor: pointer;
     vertical-align: top;
     letter-spacing: -.14px;
     text-transform: uppercase;
@@ -4951,7 +4952,7 @@ header.fixed
 
 .cart_info .promocode .form
 {
-    display: flex;
+    display: none;
     align-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -4959,9 +4960,16 @@ header.fixed
 
     width: 334px;
     max-width: 100%;
+    padding-top: 20px;
 
     --form_border_color: #000;
     --form_focus_color: #000;
+}
+
+
+.cart_info .promocode .form.show
+{
+    display: flex;
 }
 
 
@@ -4981,6 +4989,24 @@ header.fixed
 {
     width: 52px;
     padding: 0;
+}
+
+
+
+.cart_info .mob_checkout_btn
+{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 10px;
+
+    width: 100%;
+    margin-top: 40px;
+    padding: 15px 20px;
+
+    letter-spacing: -.11px;
+
+    color: #fff;
+    background: #000;
 }
 
 
@@ -5047,8 +5073,8 @@ header.fixed
 .checkout_info
 {
     display: flex;
-    align-content: flex-start;
-    align-items: flex-start;
+    align-content: stretch;
+    align-items: stretch;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -5070,6 +5096,13 @@ header.fixed
     margin-left: auto;
 
     gap: 20px;
+}
+
+
+.checkout_info .sticky
+{
+    position: sticky;
+    top: 20px;
 }
 
 
@@ -7817,9 +7850,13 @@ header.fixed
 {
     font-size: 12px;
     font-weight: 500;
+    line-height: inherit;
+
+    display: inline-block;
 
     margin-left: 1px;
 
+    vertical-align: top;
     letter-spacing: -.12px;
     text-transform: none;
 
@@ -8015,6 +8052,7 @@ header.fixed
     margin-left: 10px;
     padding: 8px;
 
+    transition: border-color .2s linear;
     text-decoration: none;
 
     color: #e6e6e6;
@@ -8028,6 +8066,41 @@ header.fixed
 
     max-width: 100%;
     max-height: 100%;
+
+    transition: .2s linear;
+
+    opacity: .5;
+
+    filter: grayscale(100%);
+}
+
+
+.product_info .marketplaces .items .item.wb:hover
+{
+    border-color: #e40cc4;
+}
+
+.product_info .marketplaces .items .item.ozon:hover
+{
+    border-color: #005bff;
+}
+
+.product_info .marketplaces .items .item.lamoda:hover
+{
+    border-color: #ff3a00;
+}
+
+.product_info .marketplaces .items .item.ya_market:hover
+{
+    border-color: #fd0;
+}
+
+
+.product_info .marketplaces .items .item:hover img
+{
+    opacity: 1;
+
+    filter: grayscale(0%);
 }
 
 
@@ -9587,6 +9660,63 @@ footer .copyright
 
 
 #promocode_error_modal .btn
+{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 13px;
+
+    padding: 15px 20px;
+
+    letter-spacing: -.182px;
+
+    color: #fff;
+    background: #000;
+}
+
+
+
+/*----------------------------
+    PopUp - Address delete
+----------------------------*/
+#address_delete_modal
+{
+    width: 324px;
+    padding: 49px 32px 32px;
+
+    text-align: center;
+
+    border: none;
+    border-radius: 8px;
+    background: #fafafa;
+    box-shadow: 0 667.837px 186.796px 0 rgba(0, 0, 0, .00), 0 426.49px 170.265px 0 rgba(0, 0, 0, .01), 0 239.694px 143.816px 0 rgba(0, 0, 0, .05), 0 107.449px 107.449px 0 rgba(0, 0, 0, .09), 0 26.449px 59.51px 0 rgba(0, 0, 0, .10);
+}
+
+
+#address_delete_modal > .f-button.is-close-btn,
+.is-compact #address_delete_modal > .f-button.is-close-btn
+{
+    top: 4px;
+    right: 4px;
+
+    --f-button-width: 38px;
+    --f-button-height: 38px;
+    --f-button-svg-width: 18px;
+    --f-button-svg-height: 18px;
+}
+
+
+#address_delete_modal .title
+{
+    font-size: 23px;
+    line-height: 120%;
+
+    margin-bottom: 24px;
+
+    color: #121919;
+}
+
+
+#address_delete_modal .btn
 {
     font-size: 18px;
     font-weight: 700;

@@ -705,6 +705,24 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	// Product images
 	initProductImagesSlider()
+
+
+	// Cart - Promocode
+	$('.cart_info .promocode .title').click(function(e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active')
+		$('.cart_info .promocode .form').toggleClass('show')
+	})
+
+
+	// Cart - Mob. checkout
+	$('.cart_info .mob_checkout_btn').click(function(e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active')
+		$('.cart_info .checkout_info').slideToggle(300)
+	})
 })
 
 

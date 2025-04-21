@@ -688,6 +688,16 @@
 
 
 
+    /*--------------
+        Lookbook
+    --------------*/
+    .lookbook .description
+    {
+        padding: 0 10px;
+    }
+
+
+
     /*---------------
         Materials
     ---------------*/
@@ -855,6 +865,20 @@
         width: calc(100% + 20px);
         margin-right: -10px;
         margin-left: -10px;
+    }
+
+
+    .product_info .data > .head .name
+    {
+        font-size: 14px;
+    }
+
+
+    .product_info .data > .head .price
+    {
+        font-size: 14px;
+
+        margin-top: 10px;
     }
 
 
