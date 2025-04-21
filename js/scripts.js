@@ -356,6 +356,10 @@ document.addEventListener('DOMContentLoaded', function() {
 		$('.side_modal_btn').removeClass('active')
 		$('.side_modal').removeClass('show')
 
+		$('.filter_btn').removeClass('active')
+		$('body').removeClass('filter_open')
+		$('.filter').removeClass('show')
+
 		$('.overlay').fadeOut(300)
 	})
 
@@ -597,6 +601,10 @@ document.addEventListener('DOMContentLoaded', function() {
 		$(this).toggleClass('active')
 		$('body').toggleClass('filter_open')
 		$('.filter').toggleClass('show')
+
+		$(this).hasClass('active') && WW < 768
+			? $('.overlay').fadeIn(300)
+			: $('.overlay').fadeOut(300)
 	})
 
 
@@ -626,7 +634,16 @@ document.addEventListener('DOMContentLoaded', function() {
 	$('.filter .clear_btn[type="reset"]').click(function(e) {
 		$('.filter .clear_btn[type="button"]').attr('disabled', true)
 
-		$('.filter .selected').remove()
+		$('.products .filter').remove()
+	})
+
+
+	$('.filter .mob_header .close_btn').click(function(e) {
+		$('.filter_btn').removeClass('active')
+		$('body').removeClass('filter_open')
+		$('.filter').removeClass('show')
+
+		$('.overlay').fadeOut(300)
 	})
 
 

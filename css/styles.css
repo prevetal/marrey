@@ -2780,6 +2780,84 @@ header.fixed
 }
 
 
+.products .filter .mob_header
+{
+    display: none;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding: 10px 0 15px;
+
+    border-bottom: 1px solid #e6e6e6;
+}
+
+
+.products .filter .mob_header .clear_btn
+{
+    font-size: 10px;
+    font-weight: 500;
+
+    letter-spacing: -.1px;
+
+    color: #b3b3b3;
+}
+
+
+.products .filter .mob_header .title
+{
+    font-size: 14px;
+    font-weight: 500;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    letter-spacing: -.14px;
+
+    gap: 5px;
+}
+
+
+.products .filter .mob_header .title .icon
+{
+    display: block;
+
+    width: 20px;
+    height: 20px;
+}
+
+
+.products .filter .mob_header .title .count
+{
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 6px;
+
+    min-width: 15px;
+    padding: 5px;
+
+    text-align: center;
+    letter-spacing: -.32px;
+
+    color: #fff;
+    border-radius: 50%;
+    background: #000;
+}
+
+
+.products .filter .mob_header .close_btn
+{
+    font-size: 10px;
+    font-weight: 500;
+
+    letter-spacing: -.1px;
+}
+
+
 .products .filter .name
 {
     font-weight: 500;
