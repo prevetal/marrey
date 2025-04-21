@@ -68,6 +68,24 @@
 
 
     /*------------
+        Slogan
+    ------------*/
+    .slogan
+    {
+        padding-top: 60px;
+    }
+
+
+    .slogan .title
+    {
+        font-size: 36px;
+
+        padding-bottom: 28px;
+    }
+
+
+
+    /*------------
         Header
     ------------*/
     header
@@ -260,10 +278,10 @@
     }
 
 
-    .main_slider .cont,
-    .top_banner ~ .main_slider .cont
+    .top_banner ~ .main_slider .cont,
+    .top_banner ~ .main_slider .banners
     {
-        height: 510px;
+        min-height: calc(100vh - 61px);
     }
 
 
@@ -275,13 +293,22 @@
     }
 
 
+    .main_slider .link a
+    {
+        color: var(--text_color);
+        background: #fff;
+    }
 
-    /*-------------------
-        First section
-    -------------------*/
-    .first_section
+
+    .main_slider .banners
     {
         flex-wrap: wrap;
+    }
+
+
+    .main_slider .banners .banner
+    {
+        height: calc(50% - 1px);
     }
 
 
@@ -298,6 +325,9 @@
     .categories .category .btn
     {
         bottom: 32px;
+
+        color: var(--text_color);
+        background: #fff;
     }
 
 

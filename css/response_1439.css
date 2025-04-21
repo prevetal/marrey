@@ -137,9 +137,22 @@
     }
 
 
-    .top_banner ~ .main_slider .cont
+    .main_slider .banners
+    {
+        min-height: calc(100vh - 68px);
+    }
+
+
+    .top_banner ~ .main_slider .cont,
+    .top_banner ~ .main_slider .banners
     {
         min-height: calc(100vh - 119px);
+    }
+
+
+    .main_slider .banners .banner .data
+    {
+        bottom: 48px;
     }
 
 

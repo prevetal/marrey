@@ -217,6 +217,17 @@ document.addEventListener('DOMContentLoaded', function() {
 	})
 
 
+	// Enter
+	$('.enter .btn').click(function(e) {
+		e.preventDefault()
+
+		$('.enter').addClass('hide')
+		$('.wrap').removeClass('lock')
+
+		setTimeout(() => $('.slogan:not(.hide)').addClass('hide'), 1500)
+	})
+
+
 	// Fancybox
 	Fancybox.defaults.autoFocus = false
 	Fancybox.defaults.trapFocus = false
@@ -296,7 +307,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	})
 
 
-	$('header .menu_item > a.sub_link').click(function(e) {
+	$('header .menu_item > a.sub_link').mouseenter(function(e) {
 		e.preventDefault()
 
 		$('header .menu_btn').removeClass('active')
@@ -681,6 +692,36 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+window.addEventListener('load', function () {
+	// Fixed header
+	headerInit = true,
+	headerHeight = $('header').outerHeight()
+
+	$('header').wrap('<div class="header_wrap"></div>')
+	$('.header_wrap').height(headerHeight)
+
+	pageScrollOffset = $(window).scrollTop()
+})
+
+
+
+window.addEventListener('scroll', function () {
+	// Fixed header
+	if (typeof headerInit !== 'undefined' && headerInit && $(window).scrollTop() < pageScrollOffset && $(window).scrollTop() > headerHeight) {
+		$('header').addClass('fixed')
+	} else {
+		$('header').removeClass('fixed')
+
+		$('header .menu_item > a.sub_link').removeClass('active')
+		$('header .sub_menu').removeClass('show')
+		$('.overlay').fadeOut(300)
+	}
+
+	pageScrollOffset = $(window).scrollTop()
+})
+
+
+
 window.addEventListener('resize', function () {
 	WH = window.innerHeight || document.clientHeight || BODY.clientHeight
 
@@ -689,6 +730,22 @@ window.addEventListener('resize', function () {
 	if (typeof WW !== 'undefined' && WW != windowW) {
 		// Overwrite window width
 		WW = window.innerWidth || document.clientWidth || BODY.clientWidth
+
+
+		// Fixed header
+		headerInit = false
+		$('.header_wrap').height('auto')
+
+		setTimeout(() => {
+			headerInit   = true
+			headerHeight = $('header').outerHeight()
+
+			$('.header_wrap').height(headerHeight)
+
+			headerInit && $(window).scrollTop() < pageScrollOffset
+				? $('header').addClass('fixed')
+				: $('header').removeClass('fixed')
+		}, 100)
 
 
 		// Product images

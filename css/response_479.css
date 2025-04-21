@@ -41,6 +41,22 @@
 
 
     /*------------
+        Slogan
+    ------------*/
+    .slogan
+    {
+        padding-top: 68px;
+    }
+
+
+    .slogan .title
+    {
+        font-size: 32px;
+    }
+
+
+
+    /*------------
         Header
     ------------*/
     header .logo img
@@ -193,12 +209,6 @@
         font-size: 29px;
 
         padding: 32px 10px;
-    }
-
-
-    .categories .category .btn
-    {
-        bottom: 32px;
     }
 
 
