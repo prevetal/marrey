@@ -1024,9 +1024,8 @@
 
     .product_info .images
     {
-        position: sticky;
+        position: relative;
         z-index: 1;
-        top: 0;
 
         width: calc(100% + 48px);
         margin-right: -24px;

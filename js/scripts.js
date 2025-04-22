@@ -218,12 +218,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 	// Enter
-	setTimeout(() => {
-		$('.enter').addClass('hide')
-		$('.wrap').removeClass('lock')
-
-		setTimeout(() => $('.slogan:not(.hide)').addClass('hide'), 1500)
-	}, 1000)
+	setTimeout(() => $('.slogan:not(.hide)').addClass('hide'), 1000)
 
 
 	// Fancybox
@@ -662,6 +657,11 @@ document.addEventListener('DOMContentLoaded', function() {
 		item.toggleClass('open')
 		item.find('.info').slideToggle(300)
 	})
+
+
+	if (WW < 1024) {
+		$('.product_info .images').stick_in_parent()
+	}
 
 
 	// Smooth scrolling to anchor
