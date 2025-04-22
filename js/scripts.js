@@ -218,14 +218,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 	// Enter
-	$('.enter .btn').click(function(e) {
-		e.preventDefault()
-
+	setTimeout(() => {
 		$('.enter').addClass('hide')
 		$('.wrap').removeClass('lock')
 
 		setTimeout(() => $('.slogan:not(.hide)').addClass('hide'), 1500)
-	})
+	}, 1000)
 
 
 	// Fancybox

@@ -513,29 +513,6 @@ button
 }
 
 
-.enter .btn
-{
-    font-weight: 600;
-    line-height: 20px;
-
-    padding: 14px 19px;
-
-    transition: .2s linear;
-    letter-spacing: -.14px;
-
-    color: #fff;
-    border: 1px solid var(--text_color);
-    background: var(--text_color);
-}
-
-
-.enter .btn:hover
-{
-    color: var(--text_color);
-    background: #fff;
-}
-
-
 .enter.hide
 {
     height: 0;
